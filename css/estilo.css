@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  background-color: aquamarine;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  color: blue;
+  margin: 1em;
+}
+header .imagenLogo {
+  margin: 2em;
+  width: 30%;
+}
+
+.imagenProducto {
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+nav {
+  background-color: gainsboro;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  text-align: center;
+  letter-spacing: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* MAPS */
+.facebook {
+  color: green;
+}
+
+.instagram {
+  color: pink;
+}
+
+.twitter {
+  color: blue;
+}
+
+/* MAP - GET*/
+.pepeLePu {
+  background-color: rgba(0, 204, 255, 0.436);
+  font-size: 20px;
+}
+
+/* EXTEND  */
+.primerEstilo, .segundoEstilo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+.segundoEstilo {
+  font-size: 20px;
+}
+
+/* mixin */
+.headerProducto {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.lead {
+  font-size: 20px;
+  text-align: right;
+}/*# sourceMappingURL=estilo.css.map */

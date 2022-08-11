@@ -1,0 +1,19 @@
+@import "variables";
+@import "body";
+@import"header";
+@import"imagenproductos.scss";
+@import"navegador";
+
+@media screen and (max-width: 578px) {
+ header {
+    flex-direction: column;
+    text-align: left;
+ }
+}
+
+    
+
+
+
+
+

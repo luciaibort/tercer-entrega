@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  background-color: aquamarine; }
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 30%;
+  display: flex; }
+  header h1 {
+    color: blue;
+    display: flexbox; }
+  header .imagenLogo {
+    margin: 2em;
+    width: 10%; }
+
+.container {
+  width: 100%;
+  height: auto; }
+
+.imagenProducto {
+  width: 30%;
+  object-fit: cover; }
+
+.llaveros {
+  width: 300px; }
+
+nav {
+  background-color: #9399d4; }
+  nav li {
+    display: inline-block; }
+    nav li a {
+      text-decoration: none;
+      color: black;
+      margin-left: 10px;
+      text-align: center;
+      letter-spacing: normal;
+      font-weight: bold;
+      text-transform: uppercase; }
+
+.container-fluid {
+  background-color: aquamarine; }
+
+.formulario {
+  display: flex;
+  margin-left: 20x; }
+
+.ubicacion {
+  width: 100%; }
+
+.productos {
+  background-color: aquamarine; }
+
+.contacto {
+  background-color: aquamarine; }
+
+footer {
+  background-color: #9399d4; }
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: violet; }
+    body .ubicacion {
+      width: 50%; } }
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: aquamarine; } }
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: aqua; } }
